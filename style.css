@@ -5,7 +5,7 @@ img {
   }
   
   h2 { 
-    font-size: 18px;
+    font-size: 25px;
   }
   
   body {
@@ -34,7 +34,7 @@ img {
     background-color: black;
     border-radius: 10px;
     transition: transform 0.5s ease;
-    transform: scale(1.05);
+    transform: scale(1.25);
   }
   
   @keyframes bounce {
