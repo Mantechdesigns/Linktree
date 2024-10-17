@@ -1,4 +1,4 @@
-img {
+.top {
     border-radius: 75px;
     margin-top: 20px;
     animation: bounce 2s infinite;
@@ -57,4 +57,11 @@ img {
 
   .footer {
     margin-top: 100px;
+  }
+
+  .me {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    padding-top: 40px;
   }
