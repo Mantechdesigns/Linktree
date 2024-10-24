@@ -15,7 +15,7 @@
     text-align: center;
   }
   
-  .button {
+  .button, .button__mode {
       text-decoration: none;
     background-color: white;
       color: slateblue;
@@ -35,6 +35,20 @@
     border-radius: 10px;
     transition: transform 0.5s ease;
     transform: scale(1.25);
+  }
+
+  .button__mode:hover {
+    text-decoration: none;
+    color: aqua;
+    background-color: black;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+    transform: scale(1.05);
+  }
+  
+  .change__text {
+    font-size: small;
+    font-weight: 700;
   }
   
   @keyframes bounce {
